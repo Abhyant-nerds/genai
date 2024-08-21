@@ -1,0 +1,24 @@
+Please extract the following key trade fields from the email content provided:
+
+1. **Trade Date**: The date when the trade was executed or is set to be executed, usually in the format MM/DD/YY or YYYY-MM-DD.
+2. **Transaction Amount**: The total amount involved in the trade, usually in currency format (e.g., $1,200.50).
+3. **Status**: The current status of the trade, such as "Completed", "Pending", or "Failed".
+4. **Trade ID**: The unique identifier associated with the trade, typically a sequence of numbers or alphanumeric characters.
+5. **Counterparty Name**: The name of the other party involved in the trade.
+
+Here is the email content:
+
+Dear Team,
+
+We have successfully completed the trade with Trade ID 56789 on 03/05/20. The total transaction amount was $1,500.50. The trade is marked as Completed. The counterparty for this trade is ABC Trading Co.
+
+Best regards,
+John Doe
+
+Please return the extracted information in the following format:
+
+- Trade Date: [Extracted Date]
+- Transaction Amount: [Extracted Amount]
+- Status: [Extracted Status]
+- Trade ID: [Extracted Trade ID]
+- Counterparty Name: [Extracted Name]
